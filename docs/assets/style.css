@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.main.main__title {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2.4rem;
+  font-weight: 900;
+}
+
+.footer {
+  width: 100%;
+  padding: 1rem;
+}
+.footer.footer__div {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer--text {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
